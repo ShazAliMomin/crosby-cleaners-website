@@ -1,0 +1,43 @@
+.location {
+  padding: 0rem 7%;
+  font-size: 20px;
+}
+
+.location h1 {
+  font-size: 70px;
+  text-align: center;
+}
+
+.address {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 1rem;
+}
+
+.phone {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 1rem;
+}
+
+.open-times {
+  padding: 1rem 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.times {
+  text-align: left;
+}
+
+.times p {
+  padding-bottom: 0.5rem;
+  margin: 0;
+}
+
+.time-details {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}

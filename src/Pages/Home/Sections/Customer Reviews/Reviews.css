@@ -1,0 +1,19 @@
+.reviews {
+  padding: 2rem 10%;
+  height: 80vh;
+}
+
+.reviews h2 {
+  text-align: center;
+}
+
+.reviews h2 span {
+  color: #38b6ff;
+  display: block;
+}
+
+@media (min-width: 900px) {
+  .reviews h2 span {
+    display: inline;
+  }
+}

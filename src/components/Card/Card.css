@@ -1,0 +1,43 @@
+.card-container {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 0;
+  border-radius: 25px;
+  padding: 3rem 0;
+}
+
+.icon {
+  color: #80e8b0;
+  font-size: 60px;
+}
+
+.card-container h3 {
+  font-size: 30px;
+}
+
+.card-container p {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  text-align: left;
+  width: 75%;
+  margin: 0;
+}
+
+@media (min-width: 1000px) {
+  .card-container {
+    height: 80%;
+  }
+
+  .card-container h3 {
+    font-size: 20px;
+  }
+
+  .card-container p {
+    margin-bottom: 2rem;
+    font-size: 18px;
+  }
+}
