@@ -1,11 +1,27 @@
 .location {
-  padding: 0rem 7%;
+  padding: 2rem 7% 2rem 7%;
   font-size: 20px;
 }
 
 .location h1 {
   font-size: 70px;
-  text-align: center;
+  text-align: left;
+  margin-top: 0;
+}
+
+.location-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location-info {
+  width: 100%;
+}
+
+.contact-icon {
+  color: #38b6ff;
 }
 
 .address {
@@ -40,4 +56,18 @@
 .time-details {
   font-family: "Lato", sans-serif;
   font-weight: 300;
+}
+
+.google-img {
+  width: 100%;
+}
+
+@media (min-width: 975px) {
+  .location-container {
+    flex-direction: row;
+  }
+
+  .google-img {
+    width: 45%;
+  }
 }
