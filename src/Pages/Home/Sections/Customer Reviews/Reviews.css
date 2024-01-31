@@ -1,6 +1,6 @@
 .reviews {
   padding: 2rem 10%;
-  height: 80vh;
+  height: fit-content;
 }
 
 .reviews h2 {
@@ -10,6 +10,12 @@
 .reviews h2 span {
   color: #38b6ff;
   display: block;
+}
+
+.customer-reviews iframe {
+  width: 100%;
+  min-height: 500px;
+  border: 0;
 }
 
 @media (min-width: 900px) {

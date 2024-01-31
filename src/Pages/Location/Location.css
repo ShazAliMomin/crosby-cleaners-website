@@ -1,12 +1,15 @@
 .location {
-  padding: 2rem 7% 2rem 7%;
   font-size: 20px;
 }
 
 .location h1 {
   font-size: 70px;
-  text-align: left;
-  margin-top: 0;
+  text-align: center;
+  margin: 0;
+  margin-top: 1rem;
+  color: white;
+  background-color: #38b6ff;
+  padding: 2rem 7% 2rem 7%;
 }
 
 .location-container {
@@ -14,6 +17,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  padding: 2rem 7% 2rem 7%;
 }
 
 .location-info {
@@ -54,12 +58,14 @@
 }
 
 .time-details {
+  font-size: 18px;
+  font-weight: 100;
   font-family: "Lato", sans-serif;
-  font-weight: 300;
+  color: #606060;
 }
 
 .google-img {
-  width: 100%;
+  width: 450px;
 }
 
 @media (min-width: 975px) {
@@ -68,6 +74,6 @@
   }
 
   .google-img {
-    width: 45%;
+    width: 450px;
   }
 }

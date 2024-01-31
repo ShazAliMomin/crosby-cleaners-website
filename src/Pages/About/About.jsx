@@ -1,27 +1,44 @@
 import React from "react";
+import "./About.css";
+
+import LaundryImg from "../../images/Laundry.png";
 
 function About() {
   return (
-    <section>
+    <section className="about">
       <h1>About Us</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
-      </p>
+      <div className="intro-container">
+        <h3>Who We Are</h3>
+        <p>
+          We are a family-owned Dry Cleaning and Laundry Business that has been
+          providing quality services to the Crosby Community for over 25 years.
+          From cleaning dirty clothes to resizing that one pant that barely
+          fits, we pride ourselves on our ability to consistently deliver
+          high-quality customer service. We value the long lasting relationships
+          we have built with our customers over decades and only hope to
+          continue that legacy.
+        </p>
+      </div>
+
+      <div className="other-info">
+        <h3>What We Offer</h3>
+        <div>
+          <div className="other-img">
+            <img src={LaundryImg} alt="A washing machine" />
+          </div>
+          <div className="other-desc">
+            <p>
+              We offer a few services ranging from dry cleaning, laundry,
+              alteration and even specialized cleaning for specific items
+              depending on material.
+              <br></br>
+              <br></br>
+              To learn more about our services click here or feel free to call
+              us during open hours.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }

@@ -1,10 +1,113 @@
 .services {
-  padding: 2rem 7% 2rem 7%;
   font-size: 20px;
 }
 
 .services h1 {
   font-size: 70px;
-  text-align: left;
-  margin-top: 0;
+  text-align: center;
+  margin: 0;
+  margin-top: 1rem;
+  padding: 2rem 7% 2rem 7%;
+  color: white;
+  background-color: #38b6ff;
+}
+
+.dry-laundry-container {
+  padding: 2rem 7% 2rem 7%;
+  background-color: white;
+}
+
+.service-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.service-container-left {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.service-img {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-img img {
+  width: 100%;
+}
+
+.service-header {
+  padding-bottom: 1rem;
+  border-bottom: 3px solid #38b6ff;
+}
+
+.service-header-left {
+  padding-bottom: 1rem;
+  border-bottom: 3px solid white;
+}
+
+.service-header,
+.service-header-left {
+  text-align: center;
+}
+
+.service-desc {
+  font-size: 18px;
+  font-weight: 100;
+  font-family: "Lato", sans-serif;
+  color: #606060;
+}
+
+.item-list {
+  display: block;
+  list-style: inside;
+  color: #606060;
+}
+
+.item-list-left {
+  display: block;
+  list-style: inside;
+  color: #606060;
+}
+
+.alteration-container {
+  padding: 2rem 7% 2rem 7%;
+  background-color: #38b6ff;
+  color: white;
+}
+
+@media (min-width: 900px) {
+  .service-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .service-container-left {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .service-img {
+    width: 45%;
+  }
+
+  .service-header {
+    text-align: left;
+    font-size: 30px;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid #38b6ff;
+  }
+
+  .service-header-left {
+    text-align: left;
+    font-size: 30px;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid white;
+  }
+
+  .service-info {
+    width: 50%;
+  }
 }

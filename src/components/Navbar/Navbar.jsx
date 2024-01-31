@@ -21,7 +21,7 @@ function Navbar() {
       <div className="nav-tab" onClick={handleClick}>
         <FontAwesomeIcon icon={isExpanded ? faX : faBars} />
       </div>
-      <ul className={isExpanded ? "navigation" : ""}>
+      <ol className={isExpanded ? "navigation" : ""}>
         <li>
           <NavLink to="/">Home</NavLink>
         </li>
@@ -37,7 +37,7 @@ function Navbar() {
         <li id="coupon-btn">
           <NavLink to="/coupon">Coupons</NavLink>
         </li>
-      </ul>
+      </ol>
     </nav>
   );
 }

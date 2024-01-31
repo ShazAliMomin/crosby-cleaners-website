@@ -19,7 +19,7 @@ nav {
   height: auto;
 }
 
-ul {
+ol {
   margin: 0;
   padding: 0;
   display: flex;
@@ -29,7 +29,7 @@ ul {
   align-items: center;
 }
 
-ul li a {
+ol li a {
   text-decoration: none;
   display: block;
   color: black;
@@ -37,7 +37,7 @@ ul li a {
   border-radius: 25px; */
 }
 
-ul li a:hover {
+ol li a:hover {
   color: #38b6ff;
 }
 
@@ -80,7 +80,7 @@ ul li a:hover {
     align-items: start;
   }
 
-  ul {
+  ol {
     display: none;
     flex-direction: column;
     width: 100%;
@@ -92,16 +92,16 @@ ul li a:hover {
     color: white;
   }
 
-  ul.navigation {
+  ol.navigation {
     display: flex;
   }
 
-  ul li {
+  ol li {
     width: 100%;
     text-align: center;
   }
 
-  ul li a {
+  ol li a {
     text-decoration: none;
     display: block;
   }

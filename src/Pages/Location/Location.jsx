@@ -1,7 +1,7 @@
 import React from "react";
 import "./Location.css";
 
-import GoogleMapImg from "../../images/CrosbyLocation.png";
+// import GoogleMapImg from "../../images/CrosbyLocation.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faClock,
@@ -56,12 +56,22 @@ function Location() {
         </div>
 
         {/* <div className="map"> */}
-        <img
+        {/* <img
           className="google-img"
           src={GoogleMapImg}
           alt="Crosby Location on Google Maps"
-        />
+        /> */}
         {/* </div> */}
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d442735.105206242!2d-95.38247339126043!3d29.89690359513055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640a94de95081a5%3A0x165e6b494b97eff8!2sCrosby%20Drycleaners%20%26%20Laundry!5e0!3m2!1sen!2sus!4v1706728203110!5m2!1sen!2sus"
+          width="700"
+          height="400"
+          style={{ border: 0 }}
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Crosby Map"
+        ></iframe>
       </div>
     </section>
   );
