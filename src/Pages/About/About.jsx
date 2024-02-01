@@ -36,7 +36,7 @@ function About() {
               Our crowning jewel, besides our customer service, is the same day
               pick-up we offer for most dry cleaning and laundry services.
               (Items are only eligable for same day pick-up if dropped off by
-              8:45am)
+              8:45 AM)
               <br></br>
               <br></br>
               To learn more about our services click here or feel free to call

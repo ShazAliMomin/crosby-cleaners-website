@@ -34,7 +34,7 @@ function Services() {
               </ul>
               <p>
                 Items are eligible for same day pick-up if dropped off by 8:45
-                PM. Items such as Comforters are excluded from same day pick-up.
+                AM. Items such as Comforters are excluded from same day pick-up.
               </p>
             </div>
           </div>
