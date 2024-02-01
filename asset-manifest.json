@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/crosby-cleaners-website/static/css/main.0b03923e.chunk.css",
+    "main.js": "/crosby-cleaners-website/static/js/main.e795e713.chunk.js",
+    "main.js.map": "/crosby-cleaners-website/static/js/main.e795e713.chunk.js.map",
+    "runtime~main.js": "/crosby-cleaners-website/static/js/runtime~main.128e78bc.js",
+    "runtime~main.js.map": "/crosby-cleaners-website/static/js/runtime~main.128e78bc.js.map",
+    "static/js/2.0f8d5856.chunk.js": "/crosby-cleaners-website/static/js/2.0f8d5856.chunk.js",
+    "static/js/2.0f8d5856.chunk.js.map": "/crosby-cleaners-website/static/js/2.0f8d5856.chunk.js.map",
+    "index.html": "/crosby-cleaners-website/index.html",
+    "precache-manifest.b254d535c5e94c787091a79a7c1c8d9d.js": "/crosby-cleaners-website/precache-manifest.b254d535c5e94c787091a79a7c1c8d9d.js",
+    "service-worker.js": "/crosby-cleaners-website/service-worker.js",
+    "static/css/main.0b03923e.chunk.css.map": "/crosby-cleaners-website/static/css/main.0b03923e.chunk.css.map",
+    "static/media/Alteration.png": "/crosby-cleaners-website/static/media/Alteration.876d6c1c.png",
+    "static/media/CrosbyCoupon.png": "/crosby-cleaners-website/static/media/CrosbyCoupon.7034facb.png",
+    "static/media/HangedClothes.png": "/crosby-cleaners-website/static/media/HangedClothes.afb96651.png",
+    "static/media/Laundry-clipart.png": "/crosby-cleaners-website/static/media/Laundry-clipart.8aa7f538.png",
+    "static/media/Laundry.png": "/crosby-cleaners-website/static/media/Laundry.54766b5d.png",
+    "static/media/Logo-sm-2.png": "/crosby-cleaners-website/static/media/Logo-sm-2.b9701167.png",
+    "static/media/Logo-sm-3.png": "/crosby-cleaners-website/static/media/Logo-sm-3.76d74d97.png"
+  }
+}
