@@ -48,6 +48,15 @@
   gap: 1rem;
 }
 
+.days {
+  text-align: left;
+}
+
+.days p {
+  padding-bottom: 0.6rem;
+  margin: 0;
+}
+
 .times {
   text-align: left;
 }

@@ -29,27 +29,36 @@ function Location() {
             <div>
               <FontAwesomeIcon className="contact-icon" icon={faClock} />
             </div>
+            <div className="days">
+              <p>Sunday:</p>
+              <p>Monday:</p>
+              <p>Tuesday:</p>
+              <p>Wednesday:</p>
+              <p>Thursday:</p>
+              <p>Friday:</p>
+              <p>Saturday:</p>
+            </div>
             <div className="times">
               <p>
-                Sunday: <span className="time-details">Closed</span>
+                <span className="time-details">Closed</span>
               </p>
               <p>
-                Monday: <span className="time-details">6:30am - 7:00pm</span>
+                <span className="time-details">6:30am - 7:00pm</span>
               </p>
               <p>
-                Tuesday: <span className="time-details">6:30am - 7:00pm</span>{" "}
+                <span className="time-details">6:30am - 7:00pm</span>
               </p>
               <p>
-                Wednesday: <span className="time-details">6:30am - 7:00pm</span>
+                <span className="time-details">6:30am - 7:00pm</span>
               </p>
               <p>
-                Thursday: <span className="time-details">6:30am - 7:00pm</span>
+                <span className="time-details">6:30am - 7:00pm</span>
               </p>
               <p>
-                Friday: <span className="time-details">6:30am - 7:00pm</span>
+                <span className="time-details">6:30am - 7:00pm</span>
               </p>
               <p>
-                Saturday: <span className="time-details">7:00am - 4:00pm</span>
+                <span className="time-details">7:00am - 4:00pm</span>
               </p>
             </div>
           </div>
