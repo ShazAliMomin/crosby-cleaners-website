@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/crosby-cleaners-website/precache-manifest.b254d535c5e94c787091a79a7c1c8d9d.js"
+  "/crosby-cleaners-website/precache-manifest.0bf5b4e23be7b436a8507bd343c58a4c.js"
 );
 
 self.addEventListener('message', (event) => {
