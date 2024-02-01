@@ -15,7 +15,9 @@ function Coupon() {
           Simply download and print the page below and bring it with you the
           next time you come to Crosby Cleaners.
         </p>
-        <FontAwesomeIcon className="download-btn" icon={faDownload} />
+        <a className="download-btn" href={LimitedTimeCoupon} download="Coupon">
+          <FontAwesomeIcon icon={faDownload} />
+        </a>
         <img src={LimitedTimeCoupon} alt="Current coupon" />
       </div>
     </section>
