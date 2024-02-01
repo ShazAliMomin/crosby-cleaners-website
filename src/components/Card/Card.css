@@ -26,6 +26,18 @@
   text-align: left;
   width: 75%;
   margin: 0;
+  padding-bottom: 2rem;
+}
+
+.card-container a {
+  color: #38b6ff;
+  list-style: none;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.card-container a:hover {
+  color: lightgray;
 }
 
 @media (min-width: 1000px) {
@@ -39,6 +51,15 @@
 
   .card-container p {
     margin-bottom: 2rem;
+    font-size: 18px;
+    padding-bottom: 0;
+  }
+
+  .card-container a {
+    margin-bottom: 2rem;
+    color: #38b6ff;
+    list-style: none;
+    text-decoration: none;
     font-size: 18px;
   }
 }

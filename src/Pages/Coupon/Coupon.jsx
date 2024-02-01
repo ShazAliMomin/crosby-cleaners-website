@@ -11,6 +11,10 @@ function Coupon() {
       <h1>Limited Time Coupon</h1>
       <div className="coupon-container">
         <h3>10 Dress Shirts for $1.99 Each (Laundry Only)</h3>
+        <p>
+          Simply download and print the page below and bring it with you the
+          next time you come to Crosby Cleaners.
+        </p>
         <FontAwesomeIcon className="download-btn" icon={faDownload} />
         <img src={LimitedTimeCoupon} alt="Current coupon" />
       </div>

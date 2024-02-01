@@ -4,19 +4,29 @@ footer {
 }
 
 .footer-container {
-  padding: 2.8rem 7%;
+  padding: 1rem 7%;
   display: flex;
-  justify-content: left;
+  justify-content: space-between;
   align-items: center;
-  gap: 3rem;
+  gap: 1rem;
+}
+
+.left-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
 }
 
 .footer-nav {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   list-style: none;
   gap: 1rem;
+  border-left: 3px solid white;
+  text-align: left;
 }
 
 .footer-nav a {
@@ -26,4 +36,9 @@ footer {
 
 .footer-nav a:hover {
   color: lightgray;
+}
+
+.right-footer {
+  text-align: center;
+  color: white;
 }

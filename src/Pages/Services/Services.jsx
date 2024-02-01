@@ -3,6 +3,7 @@ import "./Services.css";
 
 import LaundryImg from "../../images/Laundry.png";
 import HangedImg from "../../images/HangedClothes.png";
+import AlterationImg from "../../images/Alteration.png";
 
 function Services() {
   return (
@@ -42,11 +43,13 @@ function Services() {
 
       <div className="alteration-container">
         <div className="service-container-left">
-          <div className="service-img">Hi</div>
+          <div className="service-img">
+            <img src={AlterationImg} alt="Alteration tools" />
+          </div>
           <div className="service-info">
             <h3 className="service-header-left">Alterations</h3>
             <div className="service-desc">
-              <p>
+              <p className="p-alt">
                 Bought something that is slightly bigger than you had originally
                 thought? Don&apos;t worry! We will alter the size to meet your
                 needs.
@@ -59,7 +62,9 @@ function Services() {
                 <li>Suits</li>
                 <li>Blouse</li>
               </ul>
-              <p>Altered items are not eligible for same day pick-up.</p>
+              <p className="p-alt">
+                Altered items are not eligible for same day pick-up.
+              </p>
             </div>
           </div>
         </div>

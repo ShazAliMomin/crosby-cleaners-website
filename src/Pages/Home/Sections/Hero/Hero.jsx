@@ -1,9 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./Hero.css";
-import IntroImg from "../../../../images/Laundry-clipart-image.jpeg";
+import IntroImg from "../../../../images/Laundry-clipart.png";
 
 function Hero() {
+  const handleClick = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <div className="hero">
       <div className="hero-container">
@@ -13,7 +17,9 @@ function Hero() {
             Dry Cleaning & Laundry Services
           </h1>
           <div>
-            <NavLink to="/services">Our Services</NavLink>
+            <NavLink to="/services" onClick={handleClick}>
+              Our Services
+            </NavLink>
           </div>
         </div>
         <div className="hero-img">

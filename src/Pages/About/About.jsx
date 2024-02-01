@@ -28,9 +28,15 @@ function About() {
           </div>
           <div className="other-desc">
             <p>
-              We offer a few services ranging from dry cleaning, laundry,
+              We offer a few services including dry cleaning, laundry,
               alteration and even specialized cleaning for specific items
               depending on material.
+              <br></br>
+              <br></br>
+              Our crowning jewel, besides our customer service, is the same day
+              pick-up we offer for most dry cleaning and laundry services.
+              (Items are only eligable for same day pick-up if dropped off by
+              8:45am)
               <br></br>
               <br></br>
               To learn more about our services click here or feel free to call

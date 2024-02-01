@@ -13,9 +13,13 @@ function Navbar() {
     setExpand(!isExpanded);
   }
 
+  function scrollToTop() {
+    window.scrollTo(0, 0);
+  }
+
   return (
     <nav>
-      <Link to="/">
+      <Link to="/" onClick={scrollToTop}>
         <img className="logo" src={CrosbyCleanersLogo} alt=""></img>
       </Link>
       <div className="nav-tab" onClick={handleClick}>
@@ -23,18 +27,26 @@ function Navbar() {
       </div>
       <ol className={isExpanded ? "navigation" : ""}>
         <li>
-          <NavLink to="/">Home</NavLink>
+          <NavLink to="/" onClick={isExpanded ? handleClick : null}>
+            Home
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/about">About Us</NavLink>
+          <NavLink to="/about" onClick={isExpanded ? handleClick : null}>
+            About Us
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/services">Services</NavLink>
+          <NavLink to="/services" onClick={isExpanded ? handleClick : null}>
+            Services
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/location">Location</NavLink>
+          <NavLink to="/location" onClick={isExpanded ? handleClick : null}>
+            Location
+          </NavLink>
         </li>
-        <li id="coupon-btn">
+        <li id="coupon-btn" onClick={isExpanded ? handleClick : null}>
           <NavLink to="/coupon">Coupons</NavLink>
         </li>
       </ol>
